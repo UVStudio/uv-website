@@ -1988,7 +1988,7 @@ figure a .text-overlay .info {
     top: 50%;
     margin-top: -22px;
     pointer-events: auto;
-    color: rgba(255,255,255,0.6);
+    color: rgba(246,147,30,0.6);
     line-height: 1;
     font-size: 40px;
     width: auto;
@@ -2000,7 +2000,7 @@ figure a .text-overlay .info {
     -moz-transition: all 200ms ease-in;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-']:hover {
-    color: rgba(255,255,255,1)
+    color: rgba(246,147,30,1)
 }
 .custom-controls .owl-slider-controls .owl-slider-nav .owl-slider-prev {
     left: 10px
@@ -2866,6 +2866,7 @@ figure.main,
 .fancybox-next span {
     background: rgba(0,0,0,0.45) !important;
     color: #f7f7f7 !important;
+    /* color: #f7f7f7 !important; */
     text-align: center !important;
     -webkit-transition: all 200ms ease-in !important;
     -o-transition: all 200ms ease-in !important;

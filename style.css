@@ -80,6 +80,32 @@ iframe {
     color: #2f2f2f;
 }
 /*-----------------------------------------------------------------------------------*/
+/*	00. CUSTOM
+/*-----------------------------------------------------------------------------------*/
+
+.center {
+  margin: 0 auto;
+}
+
+.video-container {
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio (9/16 = .5625) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
 /*-----------------------------------------------------------------------------------*/
 body {
@@ -1077,7 +1103,7 @@ footer .post-list li em {
     float: none !important
 }
 .navbar .container {
-    padding: 0
+    padding: 0;
 }
 .navbar {
     margin: 0;
@@ -1248,7 +1274,8 @@ footer .post-list li em {
     width: 100% !important;
     position: relative;
     padding: 0;
-    height: 100vh;
+    /* background-color: green; */
+    /* height: 100vh; */
 }
 .revolution {
     z-index: 998
@@ -2004,7 +2031,7 @@ figure a .text-overlay .info {
     top: 50%;
     margin-top: -22px;
     pointer-events: auto;
-    color: rgba(255,255,255,0.6);
+    color: rgba(246,147,30,0.6);
     line-height: 1;
     font-size: 40px;
     width: auto;
@@ -2016,7 +2043,7 @@ figure a .text-overlay .info {
     -moz-transition: all 200ms ease-in;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-']:hover {
-    color: rgba(255,255,255,1)
+    color: rgba(246,147,30,1)
 }
 .custom-controls .owl-slider-controls .owl-slider-nav .owl-slider-prev {
     left: 10px
@@ -3138,6 +3165,9 @@ figure.main,
 	    float: none;
 	    display: inline-block;
 	}
+    .video-container iframe {
+        padding-top: 73px;
+    }
 }
 @media (max-width: 991px) { 
 	.navbar-brand {
@@ -3250,6 +3280,9 @@ figure.main,
 	    display: block;
 	    text-align: center;
 	}
+    .video-container iframe {
+        padding-top: 88px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) { 
 	.navbar .container,
@@ -3312,6 +3345,10 @@ figure.main,
 	#instawidget li {
 	    width: 50%
 	}
+    .video-container iframe {
+        padding-top: 88px;
+    }
+
 }
 @media (max-width: 767px) { 
 	.navbar.fixed .navbar-collapse .navbar-nav {
@@ -3444,4 +3481,7 @@ figure.main,
 	.custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-'] {
 	    display: none
 	}
+    .video-container iframe {
+        padding-top: 88px;
+    }
 }
