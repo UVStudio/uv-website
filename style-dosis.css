@@ -1548,7 +1548,7 @@ footer .post-list li em {
 }
 .fix-portfolio .items {
     margin: 0;
-    *zoom: 1;
+    zoom: 1;
     padding: 0;
 }
 .fix-portfolio .items:before,
@@ -2307,7 +2307,7 @@ textarea {
     padding: 0;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     margin-right: 3px;
 }
 .tabs-top .tab a {

@@ -1546,13 +1546,13 @@ footer .post-list li em {
 .share-links .share-facebook:focus {
     background: #3d5b9b
 }
-.share-links .share-instagram {
+.share-links .share-vimeo {
     background: #8134AF
 }
-.share-links .share-instagram:hover {
+.share-links .share-vimeo:hover {
     background: #6d2a93
 }
-.share-links .share-instagram:focus {
+.share-links .share-vimeo:focus {
     background: #8134AF
 }
 .share-links .share-twitter {
@@ -1582,6 +1582,15 @@ footer .post-list li em {
 .share-links .share-linkedin:focus {
     background: #3daccf
 }
+.share-links .share-vimeo {
+    background: #1ab7ea
+}
+.share-links .share-vimeo:hover {
+    background: #188eb4
+}
+.share-links .share-vimeo:focus {
+    background: #1ab7ea
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	13. ISOTOPE PORTFOLIO GRID
@@ -1591,7 +1600,7 @@ footer .post-list li em {
 }
 .fix-portfolio .items {
     margin: 0;
-    *zoom: 1;
+    zoom: 1;
     padding: 0;
 }
 .fix-portfolio .items:before,
@@ -2350,7 +2359,7 @@ textarea {
     padding: 0;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     margin-right: 3px;
 }
 .tabs-top .tab a {
