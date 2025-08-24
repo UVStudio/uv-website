@@ -104,6 +104,10 @@ iframe {
     padding-top: 75px;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
@@ -1905,6 +1909,8 @@ figure a .text-overlay .info {
     position: absolute;
     top: 0px;
     left: 0px;
+    height: 100%;
+    overflow: scroll;   /* THIS makes overlay content scrollable */
 }
 .fullcontent-content-wrapper-new .pcw {
     padding-top: 84px
