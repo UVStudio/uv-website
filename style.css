@@ -108,6 +108,9 @@ body.no-scroll {
   overflow: hidden;
 }
 
+.social-button-width {
+    width: 102px;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	01. GENERAL
